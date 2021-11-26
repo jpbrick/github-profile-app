@@ -1,0 +1,64 @@
+.search-bar {
+    width: 45%;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.add-btn {
+    border-radius: 15px;
+    background-color: #61dafb;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.profile-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 10%;
+    border: solid 3px white;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+.profile-pic {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.profile-link, .profile-link a {
+    color: inherit; 
+    text-decoration: inherit;
+    background-color: #61dafb;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: end;
+    background-color: violet;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.delete-btn {
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
