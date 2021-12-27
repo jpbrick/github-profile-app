@@ -1,0 +1,30 @@
+.profile-card {
+    border: solid 3px white;
+    border-radius: 15px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.profile-link, .profile-link a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: #61dafb;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: end;
+    background-color: violet;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 15%;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+}
